@@ -6,5 +6,5 @@
 
 ![Screenshot 1](assets/screenshot1.png)
 
-Original work by [Ben Coleman @BenCodeGeek](https://twitter.com/BenCodeGeek) at [dart_raytracer](https://github.com/modulovalue/dart_raytracer)
+Original work by [Ben Coleman @BenCodeGeek](https://twitter.com/BenCodeGeek) at [dart_raytracer](https://github.com/modulovalue/dart_raytracer)  
 Rewritten to work with Flutter by [Modestas Valauskas @modulovalue](https://twitter.com/modulovalue)
