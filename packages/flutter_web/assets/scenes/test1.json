@@ -1,0 +1,90 @@
+{
+"name": "Test Scene 1",
+"background": "Stormy_Sky.jpg",
+
+"objects": [
+  {
+  "type": "Sphere",
+  "name": "Green ball",
+  "pos": [-70.0, -46, -650.0],
+  "radius": 50.0,
+  "material": [0.7, 1.0, 1.0, 50.0, 0.3, 0],
+  "texture": {
+    "type": "Basic",
+    "colour": [0.25, 0.582, 0.273, 0.0]
+    }
+  },
+  
+  {
+  "type": "Sphere",
+  "name:": "blue",
+  "pos": [130.0, 34.0, 90.0],
+  "radius": 80.0,
+  "material": [0.7, 1.0, 1.0, 20.0, 0.4, 0],
+  "texture": {
+    "type": "Basic",
+    "colour": [0.210, 0.292, 0.867, 0.0]
+    }
+  },  
+  
+  {
+  "type": "Sphere",
+  "name": "big orange ball",
+  "pos": [-180.0, 95.0, 90.0],
+  "radius": 100.0,
+  "material": [0.7, 1.0, 0.3, 2.0, 0.2, 0],
+  "texture": {
+    "type": "Basic",
+    "colour": [0.929, 0.454, 0.274, 0.0]
+    }
+  }, 
+
+  {
+  "type": "Sphere",
+  "name": "little floating ball",
+  "pos": [50.0, 178.0, -166.0],
+  "radius": 20.0,
+  "material": [0.7, 1.0, 0.99, 33.0, 0.0, 0],
+  "texture": {
+    "type": "Basic",
+    "colour": [0.9625, 0.582, 0.272 , 0.0]
+    }
+  }, 
+
+  {
+  "type": "Plane",
+  "pos": [0, -50, 0],
+  "dir": [0, 1, -0.07],
+  "width":  5000.0,
+  "height":  5000.0,
+  "material": [0.7, 1.0, 0.0, 20.0, 0.2, 0],
+  "texture": {
+    "type": "Image",
+    "name": "bert",
+    "filename": "checkerboard_red.jpg",
+    "scale": [34.0, 74.0]
+    }
+  },
+  
+    {
+  "type": "Plane",
+  "pos": [0, 1700, 0],
+  "dir": [0, 1, 0.02],
+  "width":  9200.0,
+  "height":  9200.0,
+  "material": [1.0, 1.0, 0.0, 1.0, 0.0, 1],
+  "texture": {
+    "type": "Image",
+    "name": "space",
+    "filename": "space-sky.jpg",
+    "scale": [9.0, 29.0]
+    }
+  } 
+
+],
+
+"lights": [
+{
+  "pos": [500.0, 800.0, -700.0]
+}]
+}

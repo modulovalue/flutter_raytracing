@@ -1,0 +1,26 @@
+{
+"name": "Test Scene 1",
+
+"objects": [
+
+  {
+  "type": "Plane",
+  "pos": [0, 0, -30],
+  "dir": [0, 0, 1],
+  "width":  200.0,
+  "height":  200.0,
+  "material": [1.0, 1.0, 0.0, 1.0, 0.0, 1],
+  "texture": {
+    "type": "Image",
+    "name": "space",
+    "filename": "test5.png",
+    "scale": [9.0, 9.0]
+    }
+  } 
+],
+
+"lights": [
+{
+  "pos": [500.0, 300.0, -700.0]
+}]
+}
